@@ -16,19 +16,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-skills",
+          title: "Skills",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/skills/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "My Curriculum Vitae",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-teaching",
-          title: "Teaching",
-          description: "Teaching Assistant for Aerospace, Mechanical and Mathematics Departments at Purdue University.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/teaching/";
           },
         },{id: "post-a-post-with-plotly-js",
         
