@@ -2,96 +2,104 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Vasudha Kapre
     - name: Languages
-      value: English, German
+      value: English, Hindi, Telugu, Marathi, Sanskrit
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Aerospace Engineering
+      institution: Purdue University, West Lafayette, IN, U.S.A
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Advisor, R. Byron Pipes
+        - Thesis - Fiber length attrition of long-discontinuous fiber reinforced polymer pellets in a single screw extruder.
+        - GPA - 3.92/4.00
+    - title: M.S in Aerospace Engineering
+      institution: Purdue University, West Lafayette, IN, U.S.A
+      year: 2020
+      description: 
+        - Structures (Major), Materials (Minor)
+        - GPA - 3.68/4.00
+    - title: B.Tech in Civil Engineering
+      institution: Indian Institute of Technology - Hyderabad, Telanga, India
+      year: 2018
+      description: 
+        - GPA - 8.88/10.00
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: School of Mechanical Engineering, Purdue University
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Execute an industry funded project with Juggerbot3D to develop additive manufacturing
+          capabilities for fiber reinforced thermoset resin systems.
+        - Support the Composites Additive Manufacturing and Simulation Consortium (CAMS) at the
+          Composites Manufacturing and Simulation Center through simulation, characterization, and
+          validation for printing with various thermoplastic composites.
+        - Prepare reports and publications that will be submitted to archival journals, contributing to the
+          preparation of funding proposals.
+    - title: Ph.D. Thesis 
+      institution: School of Aeronautics and Astronautics, Purdue University
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Modeled the flow of cylindrical pellets in a single screw extruder using LIGGGHTS, a discrete
+          element method opensource code implement in C++, and used Paraview for pellet trajectory
+          visualization.
+        - Validated pellet motion in the solid-conveying zone of a single screw extruder for starve-fed
+          extrusion of 40% CF-PPS by building an extruder system with acrylic barrel for visual pellet
+          tracking.
+        - Created a sequentially coupled discrete element – finite element (DEM-FEM) framework to
+          capture heat-transfer and melting of a single pellet in ABAQUS based on contact information
+          obtained from LIGGGHTS.
+        - Extended melting and crystallization kinetics model of semi-crystalline 40% CF-PPS and
+          implemented in ABAQUS heat-transfer simulations through user-subroutine UMATHT.
+        - Developed analytical models based on beam theory for partially molten pellet deformation and
+          fiber-breakage in the melting zone of a single screw extruder.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate Research Assistant
+      institution: Composites Manufacturing & Simulation Center (CMSC)
+      year: 2019 - 2023
       description:
+        - Collaborated with the additive manufacturing team to develop material cards for short-fiber
+          reinforced polymer composites such as 50% CF-PPS, 25% CF-PESU, and 25% CF-PSU to enable
+          simulations.
+        - Performed various experiments to characterize the thermo-mechanical and microstructural
+          properties of orthotropic viscoelastic materials used in extrusion deposition additive
+          manufacturing (EDAM)
+        - Wrote MATLAB codes to measure and obtain the fiber-orientation tensor and fiber-length
+          distribution from optical micrographs using the image-processing toolbox.
+        - Validated residual stresses and deformation of additively manufactured geometries using
+          Additive-3D, an in-house physics-based simulation software.
+        - Investigated the effect of printing parameters such as bead aspect ratio, layer height, and stretching
+          ratio on the effective mechanical properties of printed parts and validated
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Fellowship
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - year: 2017 - 2018
+      items:
+        - Institute Merit-cum-means fellowship, IIT Hyderabad
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Professional Affiliations
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - American Institute of Aeronautics and Astronautics (AIAA)
+    - Society for the Advancement of Material and Process Engineering (SAMPE)
+    - Society of Women Engineers (SWE)
+    - National Postdoctoral Association (NPA)
+
+- title: Academic Interests
+  type: list
+  contents:
+    - Additive Manufacturing of FIber-Reinforced Polymers
+    - Physics-based Process Simulations
+    - Advanced Composite Materials
+
+# - title: Other Interests
+#  type: list
+#  contents:
+#    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
