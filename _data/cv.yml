@@ -77,6 +77,40 @@
         - Investigated the effect of printing parameters such as bead aspect ratio, layer height, and stretching
           ratio on the effective mechanical properties of printed parts and validated
 
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Analytical Geometry & Calculus – I, MA 16500
+      institution: Department of Mathematics, Purdue University
+      year: Fall 2018
+      description:
+        - Taught recitation lectures to three sections of first year undergraduate students.
+    - title: Elasticity for Aerospace Engineers, AAE 55300
+      institution: Department of Aerospace Engineering, Purdue University
+      year: Fall 2023
+      description:
+        - Held office hours, graded homeworks and proctored exams.
+    - title: Advanced Manufacturing of Composite Materials, AAE 59000
+      institution: Department of Aerospace Engineering, Purdue University
+      year: Spring 2023, 2024
+      description:
+        - Assisted in the lab class by setting up experiments and guiding students through various composite manufacturing experiments.
+    - title: Mechanics of Composite Materials, AAE 55500
+      institution: Department of Aerospace Engineering, Purdue University
+      year: Spring 2024
+      description:
+        - Held office hours, graded homeworks and proctored exams.
+    - title: Aeromechanics II, AAE 20400
+      institution: Department of Aerospace Engineering, Purdue University
+      year: Fall 2024
+      description:
+        - Graded homeworks and proctored exams.
+    - title: Mechanics of Materials, ME 32300
+      institution: Department of Mechanical Engineering, Purdue University
+      year: Fall 2025
+      description:
+        - Delivered three lectures which included explaining new concepts, solving problems and taking quizzes.
+
 - title: Fellowship
   type: time_table
   contents:
