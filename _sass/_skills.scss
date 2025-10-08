@@ -1,0 +1,68 @@
+/*****************************
+ * Skills shared styles (structure only, no colors)
+ *****************************/
+
+.skills-section {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.skills-left {
+  flex: 0 0 200px;
+  max-width: 230px;
+  font-weight: 700;
+  font-size: 1.07rem;
+  padding: 1.4rem 1rem 1.4rem 1.4rem;
+}
+
+.skills-right {
+  flex: 1;
+  padding: 1.1rem 1.2rem;
+}
+
+.section-summary {
+  margin: .1rem .2rem .7rem .2rem;
+  font-size: .96rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.line {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: .28rem .2rem;
+  border-bottom: 1px dashed;
+}
+
+.line:last-child {
+  border-bottom: none;
+}
+
+.bullet {
+  margin-right: .25rem;
+  min-width: 1.25rem;
+}
+
+.left {
+  flex: 1;
+  min-width: 140px;
+}
+
+.right {
+  min-width: 130px;
+  text-align: right;
+}
+
+/* Responsive Styles */
+@media (max-width: 900px) {
+  .skills-section {flex-direction: column;}
+  .skills-left, .skills-right {max-width: 100%; padding: 1rem;}
+  .skills-left {border-radius: 12px 12px 0 0;}
+  .line {flex-direction: column;}
+  .right {text-align: left; margin-top: .05rem;}
+}
