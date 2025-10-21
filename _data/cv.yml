@@ -23,7 +23,7 @@
         - Structures (Major), Materials (Minor)
         - GPA - 3.68/4.00
     - title: B.Tech in Civil Engineering
-      institution: Indian Institute of Technology - Hyderabad, Telanga, India
+      institution: Indian Institute of Technology - Hyderabad, Telangana, India
       year: 2018
       description: 
         - GPA - 8.88/10.00
@@ -47,7 +47,7 @@
       year: 2020 - 2024
       description:
         - Modeled the flow of cylindrical pellets in a single screw extruder using LIGGGHTS, a discrete
-          element method opensource code implement in C++, and used Paraview for pellet trajectory
+          element method open-source code implement in C++, and used Paraview for pellet trajectory
           visualization.
         - Validated pellet motion in the solid-conveying zone of a single screw extruder for starve-fed
           extrusion of 40% CF-PPS by building an extruder system with acrylic barrel for visual pellet
@@ -89,7 +89,7 @@
       institution: Department of Aerospace Engineering, Purdue University
       year: Fall 2023
       description:
-        - Held office hours, graded homeworks and proctored exams.
+        - Held office hours, graded homework and proctored exams.
     - title: Advanced Manufacturing of Composite Materials, AAE 59000
       institution: Department of Aerospace Engineering, Purdue University
       year: Spring 2023, 2024
@@ -99,12 +99,12 @@
       institution: Department of Aerospace Engineering, Purdue University
       year: Spring 2024
       description:
-        - Held office hours, graded homeworks and proctored exams.
+        - Held office hours, graded homework and proctored exams.
     - title: Aeromechanics II, AAE 20400
       institution: Department of Aerospace Engineering, Purdue University
       year: Fall 2024
       description:
-        - Graded homeworks and proctored exams.
+        - Graded homework and proctored exams.
     - title: Mechanics of Materials, ME 32300
       institution: Department of Mechanical Engineering, Purdue University
       year: Fall 2025
@@ -129,7 +129,7 @@
 - title: Academic Interests
   type: list
   contents:
-    - Additive Manufacturing of FIber-Reinforced Polymers
+    - Additive Manufacturing of Fiber-Reinforced Polymers
     - Physics-based Process Simulations
     - Advanced Composite Materials
 

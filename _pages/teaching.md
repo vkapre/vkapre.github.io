@@ -3,28 +3,26 @@ layout: page
 permalink: /teaching/
 title: Teaching
 description: Teaching Assistant for Aerospace, Mechanical and Mathematics Departments at Purdue University. 
-nav: false
-nav_order: 6
+nav: true
+nav_order: 5
+---
+### Courses Supported  
+- **MA 16500** — Analytical Geometry & Calculus I *(Fall 2018)*  
+- **AAE 55300** — Elasticity for Aerospace Engineers *(Fall 2023)*  
+- **AAE 59000** — Advanced Manufacturing of Composite Materials *(Spring 2023, 2024)*  
+- **AAE 55500** — Mechanics of Composite Materials *(Spring 2024)*  
+- **AAE 20400** — Aeromechanics II *(Fall 2024)*  
+- **ME 32300** — Mechanics of Materials *(Fall 2025)*  
+
 ---
 
-Teaching Assistant, Purdue University
+### Responsibilities & Highlights  
+- Delivered two lectures for *ME 32300 (Mechanics of Materials)*, introducing new concepts, solving example problems in class, and conducting quizzes.  
+- Supported *AAE 55300, AAE 55500,* and *AAE 20400* through office hours, homework grading, and exam proctoring.  
+- Assisted *AAE 59000 (Advanced Manufacturing of Composite Materials)* lab sessions by setting up experiments and guiding students through composite fabrication and testing.  
+- Led recitation sessions for three sections of *MA 16500*, teaching first-year undergraduates in the Mathematics Department.
 
-- [Fall 2018] Analytical Geometry & Calculus – I, MA 16500
+---
 
-- [Fall 2023] Elasticity for Aerospace engineers, AAE 55300
-
-- [Spring '23, '24] Advanced Manufacturing of Composite Materials, AAE 59000
-
-- [Spring 2024] Mechanics of Composite Materials, AAE 55500
-
-- [Fall 2024] Aeromechanics II, AAE 20400
-
-- [Fall 2025] Mechanics of Materials, ME 32300
-
-    Delivered three lectures for ME323 (Mechanics of Materials) which included explain new concepts, solving problems in class and taking quizzes. 
-
-    During my PhD and Masters, I was a Teaching Assistant for three courses in Aerospace Engineering (AAE 553, AAE 555, AAE 204) where I held office hours and helped in grading homeworks and proctoring exams. 
-
-    For AAE 590 (Advanced Manufacturing of Composite Materials), I helped in the lab by setting up experiments and guiding students through various composite manufacturing experiments. 
-    
-    In the math department, I taught recitation lectures to three sections of first year undergraduate students for MA 165 (Analytical Geometry & Calculus – I).
+### Summary  
+Teaching experience spans foundational mathematics and advanced aerospace and mechanical engineering courses, combining theoretical instruction, laboratory guidance, and direct classroom teaching.
