@@ -1,69 +1,52 @@
 ---
 layout: page
-title: Thermoset Printing
-description: Reactive Extrusion Additive Manufacturing of Thermoset-based Composites
-img:
+title: Single-Screw Extrusion of Polymer Composites
+description: Modeling pellet motion, melting, deformation, and fiber length attrition to capture the solid–melt transition and its effect on extrudate quality. Ph.D. thesis work.
+img: assets/img/p1_1.gif
 importance: 1
 category: work
+related_publications: true
 ---
 
-- Postdoc work 
+**Overview**  
+Developed a unified DEM–FEM–analytical modeling framework during my Ph.D. to predict pellet motion, melting, deformation, and fiber breakage for long-discontinuous fiber-reinforced polymer pellets. This work appears in my thesis and related publications {% cite kapre2024fiber%}, {%cite kapre2025single%}, {%cite kapre2024modeling%}.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p1_2.png"
+        title="DEM pellet trajectories, melt progression, and fiber-length distribution" 
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    DEM pellet trajectories, melt progression, and fiber-length distribution along the screw.
 </div>
+
+**Approach**  
+- DEM (LIGGGHTS) for pellet motion and kinematics  
+- FEM (ABAQUS) for heat transfer and melting of individual pellets  
+- Beam theory + Weibull model for pellet deformation and fiber breakage  
+- Coupled these into a melt progression + fiber-length evolution framework  
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p1_3.png"
+        title="Predicted fiber-length distributions and melt-state evolution" 
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Predicted fiber-length distributions and melt-state evolution along the screw.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Key Results**  
+- Pellets recirculate primarily in the second half of the screw, aligning with rapid outside–in melting  
+- Fiber breakage initiates once the outer pellet layer melts  
+- Starve-feeding reduces residence time and fiber attrition; high RPM can cause incomplete melting  
+- Predicted bimodal fiber-length distributions match experiments  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Impact**  
+Provides a quantitative basis to tune screw geometry, feeding mode, and processing conditions to preserve fiber length and improve composite performance; extensible to other thermoplastic and extrusion-based AM feedstocks.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Tools**  
+LIGGGHTS, ABAQUS, MATLAB, Python, HPC environment; Material: 40% CF-PPS

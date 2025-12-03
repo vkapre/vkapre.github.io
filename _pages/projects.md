@@ -2,10 +2,11 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of my work.
-nav: false
+description: These projects demonstrate my work in computational modeling, process development, and material behavior for polymer and composite manufacturing.
+
+nav: true
 nav_order: 2
-display_categories: [work]
+display_categories:
 horizontal: false
 ---
 

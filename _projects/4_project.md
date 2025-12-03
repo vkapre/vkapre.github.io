@@ -1,70 +1,37 @@
 ---
 layout: page
-title: Additive3D
-description: Physics-based Additive Manufacturing Simulations 
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Thermoset Additive Manufacturing Simulations
+description: Capturing cure kinetics and developing physics-based predictive simulations. Work in progress.
+img: assets/img/p4_thumb.png
 importance: 4
 category: work
 ---
 
-- A physics based AM simulation
+**Overview**  
+Leading an industry-funded project with JuggerBot3D to characterize cure kinetics and develop physics-based simulations for extrusion-deposition additive manufacturing of carbon-fiber-reinforced vinyl ester thermosets. 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p4_3.jpg"
+        title="Physical phenomena in thermoset extrusion-deposition"
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Physical phenomena governing thermoset extrusion-deposition.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Approach**  
+- Measuring cure kinetics (DSC) for relevant temperature profiles  
+- Extracting viscoelastic behavior during gelation and post-cure  
+- Building early-stage cure-shrinkage and residual-stress models  
+- Designing thermal + rheological validation experiments  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Key Results**  
+Work ongoing. Current progress includes preliminary cure models and initial viscoelastic parameter identification.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Impact**  
+Will provide a full physics-based simulation capability for thermoset AM, capturing flow, curing, shrinkage, and residual stresses for process optimization and material development.
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Tools**  
+DSC, DMA, rheometer, MATLAB, Python

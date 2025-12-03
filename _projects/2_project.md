@@ -1,73 +1,52 @@
 ---
 layout: page
-title: Pellet motion and melting
-description: A numerical framework coupling the discrete element and finite element methods.
-img: assets/img/12.jpg
+title: Process Optimization for Additive Manufacturing 
+description: Multi-physics modeling and process–structure–property optimization for large-format extrusion deposition. Collaboration with Lockheed Martin.
+img: assets/img/p2_thumb.png
 importance: 2
 category: work
 related_publications: true
 ---
 
-Developed a DEM-FEM coupled framework to track a cylindrical pellet as it moves through a heated single screw extruder and is melted along the way. 
-- The discrete element method uses Newton's laws of motions with a Hertzian contact to depict pellet motion and interaction as they are dropped through the hopper into a rotating helical screw inside a stationery heated barrel. 
-- The screw, barrel, and the hopper were modeled in SolidWorks and then meshed in ABAQUS and imported into LIGGGHTS, an open-source discrete element framework
-- Cylindrical pellets are represented by a series of spheres bonded together
+**Overview**  
+Investigated how printing parameters influence microstructure and macroscopic properties in large-format extrusion deposition of carbon-fiber-reinforced polymers. Designed the full experimental matrix, performed tensile testing, and processed data for journal and conference publications.
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p2_first.png"
+        title="Elastic modulus trends for different printing conditions"
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Elastic modulus trends for varying deposition parameters.
 </div>
+
+**Approach**  
+- Selected three dominant parameters (nozzle size, bead aspect ratio, bead/nozzle area ratio)  
+- Designed 12 printing conditions; fabricated and tested coupons (modulus & strength)  
+- Estimated fiber orientation (A₁₁) using micromechanics  
+- Ran ADDITIVE–3D virtual printing simulations using extreme material cards  
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p2_second.png"
+        title="Process–structure–property relationships for carbon-fiber-reinforced PESU"
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Process–structure–property trends for carbon-fiber-reinforced PESU.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Key Results**  
+- Elastic modulus range: **9.53–15.65 GPa**; tensile strength: **92–145 MPa**  
+- Fiber orientation A₁₁ spanned **0.60–0.77**, capturing strong microstructure sensitivity  
+- Virtual parts showed **8.6% vs 9.5%** deformation for low vs high orientation  
+- Demonstrated direct tuning of microstructure via printing parameters  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Impact**  
+Established a clear process–structure–property–performance link for fiber-reinforced AM, reducing trial-and-error and improving predictability for large or load-bearing components.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Tools**  
+CAMRI printer, MTS tensile testing, MATLAB, ADDITIVE-3D (FEM-based); Material: 25% CF-PESU

@@ -1,70 +1,52 @@
 ---
 layout: page
-title: Fiber Length Attrition
-description: A analytical model based on Timoshenko beam theory and large deflection cantilever beam theories to predict fiber attrition. 
-img: assets/img/3.jpg
+title: Material Card Development 
+description: Experimental characterization and model calibration (microstructure, mechanical, thermal, viscoelastic) to generate validated material cards for 3D printing simulations.
+img: assets/img/p3_thumb.png
 importance: 3
 category: work
-giscus_comments: true
+related_publications: true
 ---
 
-- A analytical model based on Timoshenko beam theory and large deflection cantilever beam theories to predict fiber attrition. 
+**Overview**  
+Developed complete, orthotropic material cards for three carbon-fiber-reinforced thermoplastics (50% CF-PPS, 20% CF-PEI, 25% CF-PESU), enabling accurate extrusion-based AM simulations. Work conducted with Techmer and Lockheed Martin. {% cite barocio2022validated %}
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p3_2.png"
+        title="Experimental-to-simulation workflow for material card generation"
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Experimental-to-simulation workflow for material card generation.
 </div>
+
+**Approach**  
+- Printed and tested coupons in printing, transverse, and stacking directions  
+- Quantified fiber-orientation tensors using optical microscopy and X-ray CT  
+- Performed DMA for viscoelastic behavior (Prony-series fitting)  
+- Used DSC to characterize crystallization and melting profiles  
+- Compiled complete orthotropic property sets for final material cards  
+
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-10 col-md-8 mx-auto mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/p3_3.png"
+        title="Material properties and corresponding ASTM standards"
+        class="img-fluid rounded z-depth-1" style="max-width: 90%;" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Required properties and corresponding ASTM standards.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Key Results**  
+- Delivered fully validated material cards for all three material systems  
+- Implemented cards in ADDITIVE-3D; validated part deformation accuracy  
+- Produced comprehensive technical documentation for partners  
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+**Impact**  
+Provides physics-based material inputs for AM simulations, improving deformation prediction and enabling reliable parametric studies for design and process optimization.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+**Tools**  
+DSC, DMA, TGA, X-ray CT, optical microscopy, MTS tensile frames, MATLAB, Python, ADDITIVE-3D
