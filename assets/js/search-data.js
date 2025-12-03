@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-projects",
+          title: "Projects",
+          description: "These projects demonstrate my work in computational modeling, process development, and material behavior for polymer and composite manufacturing.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
           title: "Publications",
           description: "",
           section: "Navigation",
@@ -57,17 +64,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
-      },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
-        
-          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
-        section: "Posts",
-        handler: () => {
-          
-            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
           
         },
       },{id: "post-a-post-with-tabs",
@@ -405,36 +401,26 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-thermoset-printing",
-          title: 'Thermoset Printing',
-          description: "Reactive Extrusion Additive Manufacturing of Thermoset-based Composites",
+          section: "News",},{id: "projects-single-screw-extrusion-of-polymer-composites",
+          title: 'Single-Screw Extrusion of Polymer Composites',
+          description: "Modeling pellet motion, melting, deformation, and fiber length attrition to capture the solid–melt transition and its effect on extrudate quality. Ph.D. thesis work.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-pellet-motion-and-melting",
-          title: 'Pellet motion and melting',
-          description: "A numerical framework coupling the discrete element and finite element methods.",
+            },},{id: "projects-process-optimization-for-additive-manufacturing",
+          title: 'Process Optimization for Additive Manufacturing',
+          description: "Multi-physics modeling and process–structure–property optimization for large-format extrusion deposition. Collaboration with Lockheed Martin.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-fiber-length-attrition",
-          title: 'Fiber Length Attrition',
-          description: "A analytical model based on Timoshenko beam theory and large deflection cantilever beam theories to predict fiber attrition.",
+            },},{id: "projects-material-card-development",
+          title: 'Material Card Development',
+          description: "Experimental characterization and model calibration (microstructure, mechanical, thermal, viscoelastic) to generate validated material cards for 3D printing simulations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-additive3d",
-          title: 'Additive3D',
-          description: "Physics-based Additive Manufacturing Simulations",
+            },},{id: "projects-thermoset-additive-manufacturing-simulations",
+          title: 'Thermoset Additive Manufacturing Simulations',
+          description: "Capturing cure kinetics and developing physics-based predictive simulations. Work in progress.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
-            },},{id: "projects-material-characterization",
-          title: 'Material Characterization',
-          description: "Full thermo-mechanical and microstructural characterization of orthotropic materials.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-fiber-orientation",
-          title: 'Fiber Orientation',
-          description: "Microscopy, CT Scan, and Image Analysis",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{
         id: 'social-email',
         title: 'email',
